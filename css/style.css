@@ -1,14 +1,100 @@
+header h2 {
+    font-family: Arial, sans-serif; 
+    font-size: 32px;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
 #task-manager {
     display: flex;
     flex-direction: row;
 }
 
 .task-board {
-    background-color: bisque;
+    border: 2px solid darkblue;
+    background-color: lightblue;
     margin: 20px;
 }
 
 #widgets > div {
     width: 300px;
-    border: 1px solid green;
+    border: 2px solid darkblue;
+    background-color: lightblue;
+}
+
+.edit-button {
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .delete-button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  body {
+    background-color: skyblue;
+  }
+
+  #task-timer-stop {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #task-timer-reset {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #user #username {
+    font-weight: bold;
+    color: black
+}
+
+#task-timer-remaining {
+    font-size: 25px;
+}
+
+#logout {
+    padding: 10px 20px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
