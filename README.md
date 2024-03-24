@@ -31,4 +31,4 @@ window sizes to check that it works ok.
 
 If you want to reference images from your CSS rules, you can either include them
 in this project (add them with git) or reference them via URL on the open
-web (preferred).
+web (preferred)
